@@ -11,7 +11,7 @@ second_number = 0
 root_Main = Tk() 
 
 #Создаем пример
-example = Label(first_number="+" second_number="=")
+example = Label(text= 'first_number="+" second_number "="')
 example.pack()
 
 root_Main.mainloop()
