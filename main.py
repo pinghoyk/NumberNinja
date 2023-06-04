@@ -2,6 +2,11 @@
 from tkinter import * 
 import tkinter as tk
 
+#Переменные
+first_number = 0
+second_number = 0
+
+
 #Создаём окно
 root_Main = Tk() 
 
