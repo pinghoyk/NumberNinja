@@ -19,9 +19,9 @@ second_number = random.randint(0, 200)
 example = Label(text = str(first_number) + "+"+ str(second_number) + "=")
 example.pack()
 
-
+#Создаем кнопку
 btn = Button(text='Ответ')
-btn.pack()
+btn.place(realx=0, realy=0)
 
 
 root_Main.mainloop()
