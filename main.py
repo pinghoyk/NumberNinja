@@ -21,7 +21,7 @@ example.pack()
 
 #Создаем кнопку
 btn = Button(text='Ответ')
-btn.place(realx=0, realy=0)
+btn.place(relx=0, rely=0)
 
 
 root_Main.mainloop()
