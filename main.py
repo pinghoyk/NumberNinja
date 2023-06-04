@@ -22,13 +22,13 @@ example.pack()
 
 #Создаем кнопки
 btn1 = Button(text='Ответ')
-btn1.place(relx=0.4, rely=0.1)
+btn1.place(relx=0.3, rely=0.9)
 
 btn2 = Button(text='Ответ')
-btn2.place(relx=0.5, rely=0.1)
+btn2.place(relx=0.5, rely=0.9)
 
 btn3= Button(text='Ответ')
-btn3.place(relx=0.6, rely=0.1)
+btn3.place(relx=0.7, rely=0.9)
 
 
 root_Main.mainloop()
