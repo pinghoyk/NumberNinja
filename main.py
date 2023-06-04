@@ -6,7 +6,7 @@ import tkinter as tk
 root_Main = Tk() 
 
 #Создаем пример
-label = Label(text="130-36")
+Example = Label(text="130-36")
 label.pack()
 
 root_Main.mainloop()
