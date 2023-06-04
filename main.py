@@ -10,6 +10,7 @@ second_number = 0
 
 #Создаём окно
 root_Main = Tk() 
+root_Main.geometry('300x400')
 
 #Добавляем изменяемость чисел
 first_number = random.randint(0, 200)
