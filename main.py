@@ -3,7 +3,7 @@ from tkinter import *
 import tkinter as tk
 import random
 
-#Переменные
+#Переменные для чисел
 first_number = 0
 second_number = 0
 
@@ -16,7 +16,14 @@ root_Main.geometry('300x400')
 first_number = random.randint(0, 200)
 second_number = random.randint(0, 200)
 
-#Создаем пример
+
+# Создаем пример, на который есть ответ
+first_number = random.randint(0, 200)
+second_number = random.randint(0, 200)
+result = first_number + second_number
+
+
+#Создаем строку с примером
 example = Label(text = str(first_number) + "+"+ str(second_number) + "=")
 example.pack()
 
